@@ -10,12 +10,12 @@ cd site
 git init
 
 # Configure Git
-git config user.name "Travis CI"
-git config user.email "nbartlett7@gmail.com"
+git config user.name "huy-luong"
+git config user.email "huyluong@live.unc.edu"
 
 # Commit all the things into the repo
 git add .
 git commit -m ":shipit: Deploy to GitHub Pages"
 
 # Force push to gh-pages
-git push --force "https://${GH_TOKEN}@github.com/tteltrab/testing-demo.git" master:gh-pages > /dev/null 2>&1
+git push --force "https://${GH_TOKEN}@github.com/huy-luong/testing-demo.git" master:gh-pages > /dev/null 2>&1
